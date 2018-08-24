@@ -1,0 +1,11 @@
+server:
+  port: 8097
+
+text:
+  greeting: Hello Hystrix Service
+
+name: Babu
+
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"
